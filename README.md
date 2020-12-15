@@ -112,7 +112,7 @@ Any NVIDIA GPUs with at least 8GB memory should be OK
 	sh ./data/reencode_vid ./data/ILSVRC2015/Data/VID/snippets ./data/ILSVRC2015/Data/VID/mpeg4_snippets 
 	```
 
-3. For your convenience, we provide the trained models and pretrained_model from [Baidu Yun](https://pan.baidu.com/s/1nuPULnj) (pwd:7kct), and put pretrained_model under folder `./model`. put the trained model under folder `./output`:
+3. For your convenience, we provide the trained models and pretrained_model from [Baidu Yun](https://pan.baidu.com/s/1nz0RtFaULNkGYCFrUL2qYA) (pwd:493a), and put pretrained_model under folder `./model`. put the trained model under folder `./output`:
 
 
 ## Usage
