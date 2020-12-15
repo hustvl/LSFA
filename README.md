@@ -89,7 +89,7 @@ Any NVIDIA GPUs with at least 8GB memory should be OK
 	4.3 If needed, add ${FFMPEG_INSTALL_PATH}/lib/ to $LD_LIBRARY_PATH.
 5. Build coviar_py2.so
 	```
-	cd $(LSFA_ROOT)/external/pytorch-coviar/data_loader_py2
+	cd $(LSFA_ROOT)/external/data_loader_py2
 	sh install.sh
 	cp ./build/lib.linux-x86_64-2.7/coviar_py2.so $(LSFA_ROOT)/lib
 	```
