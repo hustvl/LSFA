@@ -87,6 +87,5 @@ lib/nms/*.c
 lib/nms/*.cpp
 
 output
-model
 
 .db

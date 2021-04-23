@@ -1,7 +1,7 @@
 MXNET_VERSION: "../"
 output_path: "./output/dff_rfcn/imagenet_vid"
 symbol: resnet_v1_101_flownet_rfcn
-gpus: '0,1,2,3'
+gpus: '0'
 CLASS_AGNOSTIC: true
 SCALES:
 - 600
@@ -10,7 +10,7 @@ default:
   frequent: 100
   kvstore: device
 network:
-  pretrained: "./model/pretrained_model/resnet-101"
+  pretrained: "./model/pretrained_model/resnet_v1_101"
   #pretrained: "./model/pretrained_model/resnet-101"
   #pretrained: "./model/pretrained_model/mobilenetv2-1_0-hobot"
   #pretrained: "./model/pretrained_model/mobilenetv2-1_0"
